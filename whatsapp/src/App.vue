@@ -17,4 +17,15 @@ export default {
 
 <style>
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111B21;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #202C33;
+}
 </style>
