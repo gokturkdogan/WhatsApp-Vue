@@ -32,9 +32,6 @@
 <script>
 export default {
     name: 'SideBarHeader',
-    props: {
-        msg: String
-    }
 }
 </script>
 

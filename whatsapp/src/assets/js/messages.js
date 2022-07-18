@@ -6,22 +6,22 @@ const messagesIndexes = [
             {
                 "time": "10:15",
                 "content": "Hi there Darius, are you free?",
-                "send": true
+                "send": false
             },
             {
                 "time": "10:15",
                 "content": "Hey Stefan, what is it?",
-                "send": false
-            },
-            {
-                "time": "10:15",
-                "content": "We are going to play basketball tomorrow, would you like to coin?",
                 "send": true
             },
             {
                 "time": "10:15",
-                "content": "That seems great, add me to team!",
+                "content": "We are going to play basketball tomorrow, would you like to coin?",
                 "send": false
+            },
+            {
+                "time": "10:15",
+                "content": "That seems great, add me to team!",
+                "send": true
             },
         ]
     },
@@ -53,7 +53,7 @@ const messagesIndexes = [
             {
                 "time": "10:15",
                 "content": "I am on the way right now. Let me call you back.",
-                "send": false
+                "send": true
             },
         ]
     }
