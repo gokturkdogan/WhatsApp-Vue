@@ -1,31 +1,4 @@
 <template>
-    <div class="sideBar">
-        <div class="sideBar__header">
-            <div class="sideBar__profilePhoto">
-                <img src="../assets/images/user1.jpg" alt="">
-
-            </div>
-            <div class="sideBar__headerIcons">
-                <font-awesome-icon class="sideBar__headerIcon" icon="fa-solid fa-recycle" />
-                <font-awesome-icon class="sideBar__headerIcon" icon="fa-solid fa-message" />
-                <font-awesome-icon class="sideBar__headerIcon" icon="fa-solid fa-ellipsis-vertical" />
-            </div>
-        </div>
-        <div class="sideBar__search">
-            <div class="sideBar__searchArea">
-                <font-awesome-icon class="sideBar__searchIcon" icon="fa-solid fa-magnifying-glass" />
-                <input type="text" placeholder="Aratın veya bir konuşma başlatın">
-            </div>
-            <div class="sideBar_searchFilter">
-                <font-awesome-icon class="sideBar__searchIcon" icon="fa-solid fa-bars" />
-            </div>
-        </div>
-        <div class="sideBar__archive">
-            <div class="sideBar__archiveIcons">
-                <font-awesome-icon class="sideBar__archiveIcon" icon="fa-solid fa-arrow-down" />
-            </div>
-            <span>Arşivlenmiş</span>
-        </div>
         <div class="sideBar__body">
             <div class="sideBar__item">
                 <div class="sideBar__itemImage">
@@ -155,7 +128,6 @@
             </div>
 
         </div>
-    </div>
 </template>
 
 <script>

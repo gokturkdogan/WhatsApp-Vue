@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 
 .sideBar {
-    width: 700px;
+    width: 500px;
     font-family: "Roboto", sans-serif;
 }
 
@@ -17,22 +17,22 @@
 }
 
 .sideBar__profilePhoto img {
-    width: 65px;
+    width: 45px;
     border-radius: 55px;
-    width: 55px;
+    width: 45px;
     cursor: pointer;
 }
 
 .sideBar__headerIcons {
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 120px;
     padding-right: 35px;
 }
 
 .sideBar__headerIcon {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
     color: #AEBAC1;
     cursor: pointer;
 }
@@ -62,17 +62,17 @@
     margin-left: 30px;
     color: #AEBAC1;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 13px;
 }
 
 ::placeholder {
     color: #AEBAC1;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 100;
 }
 
 .sideBar__searchIcon {
-    font-size: 20px;
+    font-size: 15px;
     color: #AEBAC1;
     cursor: pointer;
 }
@@ -102,13 +102,13 @@
 }
 
 .sideBar__archiveIcon {
-    font-size: 20px;
+    font-size: 15px;
     color: #00A884;
 }
 
 .sideBar__archive span {
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     margin-left: 50px;
 }
 
@@ -133,7 +133,7 @@
 
 .sideBar__itemImage img {
     border-radius: 55px;
-    width: 65px;
+    width: 55px;
 }
 
 .sideBar__sender {
@@ -153,12 +153,12 @@
 
 .sideBar__senderName {
     color: white;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .sideBar__senderMessage {
     color: #AEBAC1;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .sideBar__senderMessageTime{
@@ -169,4 +169,5 @@
 
 .sideBar__senderMessageTime span{
     color: #AEBAC1;
+    font-size: 11px;
 }

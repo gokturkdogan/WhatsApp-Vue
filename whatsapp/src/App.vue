@@ -1,14 +1,21 @@
 <template>
   <div id="app">
-    <SideBar/>
+
+    <div class="sideBar">
+        <SideBarHeader/>
+        <SideBar/>
+    </div>
+    
   </div>
 </template>
 
 <script>
+import SideBarHeader from './components/sideBarHeader.vue'
 import SideBar from './components/sideBar.vue'
 export default {
   name: 'App',
   components: {
+    SideBarHeader,
     SideBar
   }
 }
@@ -16,6 +23,7 @@ export default {
 
 
 <style>
+@import 'assets/css/sideBar.css';
 
 ::-webkit-scrollbar {
     width: 10px;
