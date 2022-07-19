@@ -1,7 +1,7 @@
 <template>
             <div class="sideBar__item" v-bind:class="{active: activeMessage}">
                 <div class="sideBar__itemImage">
-                    <img src="../assets/images/user2.jpg" alt="">
+                    <img src="../assets/images/default-user.png" alt="">
                 </div>
                 <div class="sideBar__sender">
                     <div class="sideBar__senderInfo">

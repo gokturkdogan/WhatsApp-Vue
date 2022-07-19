@@ -3,6 +3,7 @@
 .sideBar {
     width: 500px;
     font-family: "Roboto", sans-serif;
+    background-color: #111B21;
 }
 
 .sideBar__header {

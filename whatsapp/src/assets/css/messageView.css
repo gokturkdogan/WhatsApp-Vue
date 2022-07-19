@@ -51,5 +51,41 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding: 20px 0;
     height: 100%;
+}
+
+.messageView__footer{
+    background-color: #2A3942;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.messageView__footerIcons{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+
+.messageView__footerIcon{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #AEBAC1;
+    cursor: pointer;
+}
+
+.messageView__input{
+    
+}
+
+.messageView__input input{
+    padding: 15px 20px;
+    background-color: #727577;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 1000px;
+    border-radius: 10px;
+    color: white;
 }

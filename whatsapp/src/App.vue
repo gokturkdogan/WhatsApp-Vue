@@ -11,7 +11,7 @@
     <div class="messageView">
       <div class="messageView__header">
         <div class="messageView__user">
-          <img src="./assets/images/user1.jpg" alt="">
+          <img src="./assets/images/default-user.png" alt="">
           <span>{{ indexes[activeIndex].user }}</span>
         </div>
         <div class="messageView__headerIcons">
@@ -24,9 +24,14 @@
           v-for="(message, index_) in indexes[activeIndex].messages" :key="index_" />
       </div>
       <div class="messageView__footer">
+        <div class="messageView__footerIcons">
+          <font-awesome-icon class="messageView__footerIcon" icon="fa-solid fa-face-laugh-beam" />
+          <font-awesome-icon class="messageView__footerIcon" icon="fa-solid fa-paperclip" />
+        </div>
         <div class="messageView__input">
           <input type="text" v-on:keyup.enter="sendMessage" placeholder="Bir mesaj yazın" v-model="contentSend">
         </div>
+        <font-awesome-icon class="messageView__footerIcon" icon="fa-solid fa-microphone" />
       </div>
     </div>
 
