@@ -1,2 +1,3 @@
 # WhatsApp-Vue
-Whatsapp Web Clone With Message Send Feature [Vue.js](https://vuejs.org/)
+![Alt text](/whatsapp/src/assets/images/screenShots/ss1.png?raw=true)
+![Alt text](/whatsapp/src/assets/images/screenShots/ss2.png?raw=true)
