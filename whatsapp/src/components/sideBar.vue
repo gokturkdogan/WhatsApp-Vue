@@ -1,7 +1,7 @@
 <template>
             <div class="sideBar__item" v-bind:class="{active: activeMessage}">
                 <div class="sideBar__itemImage">
-                    <img src="../assets/images/default-user.png" alt="">
+                    <img v-bind:src="userPhoto" alt="">
                 </div>
                 <div class="sideBar__sender">
                     <div class="sideBar__senderInfo">
@@ -19,7 +19,7 @@
 export default {
     name: 'SideBar',
     props: [
-        'userName', 'lastMessage', 'activeMessage'
+        'userName', 'lastMessage', 'activeMessage', 'userPhoto'
     ]
 }
 </script>

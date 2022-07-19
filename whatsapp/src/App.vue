@@ -5,13 +5,14 @@
       <SideBarHeader />
       <div class="sideBar__body">
         <SideBar v-for="(message, index) in indexes" :key="index" :activeMessage="index == activeIndex"
-          :userName="message.user" :lastMessage="message.messages[0].content" v-on:click.native="activeIndex = index" />
+          :userPhoto="message.image" :userName="message.user" :lastMessage="message.messages[0].content"
+          v-on:click.native="activeIndex = index" />
       </div>
     </div>
     <div class="messageView">
       <div class="messageView__header">
         <div class="messageView__user">
-          <img src="./assets/images/default-user.png" alt="">
+          <img v-bind:src="indexes[activeIndex].image" alt="">
           <span>{{ indexes[activeIndex].user }}</span>
         </div>
         <div class="messageView__headerIcons">

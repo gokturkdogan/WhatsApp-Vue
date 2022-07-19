@@ -1,7 +1,7 @@
 const messagesIndexes = [
     {
         "user": "Stefan Salvatore",
-        "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "image": "https://i.pinimg.com/564x/df/b8/34/dfb83449cf1735288b5fe44f502738aa.jpg",
         "messages": [
             {
                 "time": "10:15",
@@ -27,7 +27,7 @@ const messagesIndexes = [
     },
     {
         "user": "Elena Gilbert",
-        "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "image": "https://qph.cf2.quoracdn.net/main-qimg-d6e1e187f8783e3b9fad076788d63796-lq",
         "messages": [
             {
                 "time": "10:15",
@@ -43,7 +43,7 @@ const messagesIndexes = [
     },
     {
         "user": "Matt Donovan",
-        "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80",
+        "image": "https://d1bntizjlw65va.cloudfront.net/3a93ae80eeae3f414a1261629aab7bf490d99fee.jpg",
         "messages": [
             {
                 "time": "10:15",
