@@ -6,7 +6,7 @@
       <div class="sideBar__body">
         <SideBar v-for="(message, index) in indexes" :key="index" :activeMessage="index == activeIndex"
           :userPhoto="message.image" :userName="message.user" :lastMessage="message.messages[0].content"
-          v-on:click.native="activeIndex = index" />
+          :lastMessageTime="message.messages[0].time" v-on:click.native="activeIndex = index" />
       </div>
     </div>
     <div class="messageView">
@@ -99,5 +99,9 @@ export default {
 
 ::-webkit-scrollbar-thumb {
   background: #202C33;
+}
+
+.active{
+  background-color: #2A3942;
 }
 </style>

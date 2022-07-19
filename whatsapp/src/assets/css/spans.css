@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.--senderName{
+    color: #FFF;
+}
+
+.--senderMessage{
+    color: #a7a9ac;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin-top: 5px;
+}
+
+.--senderTime{
+    color: #a7a9ac;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.--MessageSenderName{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}

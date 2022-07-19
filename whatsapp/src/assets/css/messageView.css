@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 .messageView{
     display: flex;
     flex-direction: column;
     background-color: #0A1014;
     width: 1500px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
     border-left: 1px solid #344249;
 }
 
@@ -81,7 +83,7 @@
 
 .messageView__input input{
     padding: 15px 20px;
-    background-color: #727577;
+    background-color: #4e5052;
     border: none;
     resize: none;
     outline: none;
